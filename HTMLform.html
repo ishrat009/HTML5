@@ -13,10 +13,18 @@
            <label for="fullName"> Full Name: </label>
             <input type="text" name='fullNameText' id="fullName"
                    placeholder="Enter Your Full Name" tabindex="1"
-                   autofocus="autofocus"
-                   value="FTFL"
-                   onclick="alert('Hello FTFL!')"/>
-            <label></label> 
+                   autofocus="autofocus"/><br/>
+            <label for = "gender" > Gender: </label>
+             <input type="radio" name="genderRadio" id="gender" value="Female">Female
+            <input type="radio" name="genderRadio" id="gender" value="Male">Male <br/>
+            <label for="city">Select your city: </label>
+                <select id="city">
+                <option value="Dhaka"> Dhaka </option>
+                <option value="Chittagong"> Chittagong </option>
+                <option value="Khulna"> Khulna </option>
+            </select><br/>
+            Hidden <input type="hidden" id="hidden"> <br/>
+            Pick a Color: <input type="color" />
                 
         </fieldset>    
       </form>
