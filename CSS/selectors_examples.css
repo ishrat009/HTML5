@@ -17,7 +17,7 @@ h3{
 }
 div[role="main"]
 {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow !important;
 }
 div[role]
 {
@@ -30,7 +30,7 @@ that are second child of their parents
 
 li:nth-child(2)
 {
-    color: red;
+    color: red !important;
 }
 
 /* selct all link element that is odd number child of their parent
@@ -38,11 +38,11 @@ li:nth-child(2)
 
 li:nth-child(2n+1)
 {
-    background-color: lightskyblue;
+    background-color: lightskyblue !important;
 }
 li:nth-child(2n)
 {
-    background-color: lightsteelblue;
+    background-color: lightsteelblue !important;
 }
 
 a{
@@ -54,7 +54,7 @@ a{
 */
 
 footer a{
-    background-color: darkkhaki;
+    background-color: darkkhaki; 
 }
 
 b~i{
@@ -69,6 +69,6 @@ b~i{
 .danger
 {
     color: red;
-    font-size: 16px;
+    font-size: 32px;
 }
 
