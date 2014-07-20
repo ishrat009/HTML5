@@ -6,5 +6,13 @@
 */
 
 *{
-    background-color: green;
+    background-color: gainsboro;
+}
+
+/* Select all the div elements that have role attribute
+and applying a rule to make the font color yellow */
+
+div[role]
+{
+    color: red;
 }
