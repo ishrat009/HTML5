@@ -9,9 +9,14 @@
     background-color: gainsboro;
 }
 
-/* Select all the div elements that have role attribute
-and applying a rule to make the font color yellow */
+/* Select all the div elements that have role attribute 
+that has a value 'main'
+and applying a rule to make the font color #000000 */
 
+div[role="main"]
+{
+    background-color: lightyellow;
+}
 div[role]
 {
     color: red;
