@@ -12,7 +12,9 @@
 /* Select all the div elements that have role attribute 
 that has a value 'main'
 and applying a rule to make the font color #000000 */
-
+h3{
+    color: darkred;
+}
 div[role="main"]
 {
     background-color: lightgoldenrodyellow;
@@ -38,10 +40,34 @@ li:nth-child(2n+1)
 {
     background-color: lightskyblue;
 }
+li:nth-child(2n)
+{
+    background-color: lightsteelblue;
+}
+
+a{
+    color: green;
+}
 
 /* select all the a that are child of footer
+(decended combinators)
 */
 
 footer a{
-    background-color: cadetblue;
+    background-color: darkkhaki;
+}
+
+b~i{
+    background-color: lightsalmon;
+}
+
+#zen-summary
+{
+    background-color: darkgray;
+}
+
+.danger
+{
+    color: red;
+    font-size: 16px;
 }
