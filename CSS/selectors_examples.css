@@ -19,7 +19,7 @@ div[role="main"]
 }
 div[role]
 {
-    color: red;
+    color: blueviolet;
 }
 
 /* Select all the li elements
@@ -28,13 +28,20 @@ that are second child of their parents
 
 li:nth-child(2)
 {
-    color: lightslategray;
+    color: red;
 }
 
-/* exercise
+/* selct all link element that is odd number child of their parent
 */
 
-a:nth-child(2n+1)
+li:nth-child(2n+1)
 {
-    background-color: lightcoral;
+    background-color: lightskyblue;
+}
+
+/* select all the a that are child of footer
+*/
+
+footer a{
+    background-color: cadetblue;
 }
