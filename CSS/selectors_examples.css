@@ -1,3 +1,10 @@
+/* Universal Selector
+ Avoid using this
+*{
+    background-color: green;
+}
+*/
+
 *{
     background-color: green;
 }
