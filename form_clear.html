@@ -16,18 +16,32 @@
             }
             ul#regForm{
                 list-style-type: none;
+               
             }
-            ul li{
+            li{
                 padding: 4px;
+                background-color: gainsboro;
+                width:100%;
+                float: left;
             }
             label{
+               
                 width: 30%;
                 display: inline-block;
                 background-color: lavenderblush;
             }
             input{
+                
                 width: 40%;
             }
+            label,input{
+                width: 30%;   
+            }
+            button{
+                float: left;
+                clear:both;
+            }
+           
         </style>
     </head>
     
@@ -49,13 +63,13 @@
                    tabindex="2"/>
             </li>
             <li>
-            <label for= "password" > Password </label>
+            <label for="password"> Password </label>
             <input type="text" name='passowrd' id="pasword"
                    placeholder="Enter Your Password" 
                    tabindex="3"/>
             </li>
             <li>
-            <label for= "confirmpassword" > Confirm Password </label>
+            <label for="confirmpassword" > Confirm Password </label>
             <input type="text" name='cpnfirmpassowrd' id="confirmpasword"
                    placeholder="Confirm Your Password" 
                    tabindex="4"/>
