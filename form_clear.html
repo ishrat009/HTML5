@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Form</title>
+        <style>
+            ul#regForm{
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+      <form method='GET'>
+        <fieldset>
+           <legend> Online Student Registration</legend>
+           <ul id="regForm">
+           <li>
+           <label for="fullName"> Full Name: </label>
+            <input type="text" name='fullNameText' id="fullName"
+                   placeholder="Enter Your Full Name" tabindex="1"
+                   autofocus="autofocus"/>
+            </li>
+            <li>
+            <label for = "email" > Email </label>
+            <input type="text" name='emailText' id="email"
+                   placeholder="Enter Your Email" 
+                   tabindex="2"/>
+            </li>
+            <li>
+            <label for= "password" > Password </label>
+            <input type="text" name='passowrd' id="pasword"
+                   placeholder="Enter Your Password" 
+                   tabindex="3"/>
+            </li>
+            <li>
+            <label for= "confirmpassword" > Confirm Password </label>
+            <input type="text" name='cpnfirmpassowrd' id="confirmpasword"
+                   placeholder="Confirm Your Password" 
+                   tabindex="4"/>
+            <input type="submit" value="Save" id="save"/>
+           </li>
+           </ul>
+        </fieldset>    
+      </form>
+        
+        
+    </body>
+</html>
