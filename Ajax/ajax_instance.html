@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Click this button</div>
+        <input type="button" value="Show" onclick="show_details()">
+        
+<script>
+    function show_details()
+    {
+    alert("Hello FTFL");
+    
+    }
+</script>  
+
 <!-- Creating a new instance on AJAX
 var xhr = new XMLHttpRequest();
 -->
@@ -13,7 +32,8 @@ var xhr = new XMLHttpRequest();
      var xhr = new ActiveXObject("Microsoft.XMLHTTP");
     }
 -->
-
+  
+    <!--
     function getHTTPObject() 
      {
       var xhr = false;
@@ -27,3 +47,13 @@ var xhr = new XMLHttpRequest();
             }
       return xhr;
     }
+    
+    var request = getHTTPObject();
+        if (request) 
+            {
+            // do some Ajax
+            }
+-->    
+
+</body>
+</html>
